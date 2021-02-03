@@ -1,0 +1,29 @@
+.left-part{
+    width: 30%;
+    height: 100%;
+    background-color: #1464F9;
+    color: white;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+}
+
+.main{
+    width: 70%;
+    padding-left: 30%;
+    text-align: center;
+    background-color: #E5E5E5;
+}
+
+.recent{
+    text-decoration-line: underline;
+    color: darkgrey;
+}

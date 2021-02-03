@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" href="source/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Covid-19 Analizer</title>
+  </head>
+  <body>
+    <div class="left-part">
+      <h1>COVID-19 Analizer</h1>
+      <button class="home">Home</button>
+      <button class="settings">Settings</button>
+      <img src="source/img/virus.png">
+    </div>
+    <div class="main">
+      <img src="source/img/files.png">
+      <h2>You don’t have any opened files</h2>
+      <button class="load">Load files*</button>
+      <button class="recent">or open recent</button>
+      <h3>*We support PNG, JPG, JPEG and NIFTI file types</h3>
+    </div>
+
+    <!-- You can also require other files to run in this process -->
+    <script>require('./renderer.js')</script>
+  </body>
+</html>
